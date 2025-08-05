@@ -1,1 +1,15 @@
-Exemplo de readme
+📚 Bem-vindos ao Repositório da Disciplina de **Implantação e Manutenção**
+
+Aqui você encontrará todos os códigos, exemplos, exercícios e projetos que desenvolveremos ao longo do curso.
+
+Como usar este repositório:
+
+Faça o fork ou clone deste repositório
+
+Por exemplo: git clone https://github.com/HenriqueDelegrego/programacao-de-aplicativos-2025-1-N.git
+
+Navegue pelos diretórios de acordo com as aulas separadas por dia
+
+Bons estudos e mãos à obra! 🚀
+
+Henrique Delegrego
