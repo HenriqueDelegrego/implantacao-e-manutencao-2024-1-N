@@ -1,0 +1,74 @@
+* {
+    /* Faz com que o padding e a borda sejam incluídos na largura e altura total dos elementos */
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: #cdf0ff;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #0066aa;
+    border: 2px solid red;
+    margin-bottom: 4px;
+}
+
+.meio {
+    display: flex;
+}
+
+nav {
+    padding: 0 5px;
+    border: 2px solid red;
+    background-color: #0066aa;
+}
+
+main {
+    width: 100%;
+    padding: 0 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 4px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 4px;
+    text-align: center;
+    border: 2px solid red;
+    background-color: #0066aa;
+}
+
+/* Estilização para telas menores do que 600px */
+@media only screen and (max-width: 600px) {
+    .meio {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    main {
+        margin: 0;
+        margin-top: 4px;
+    }
+
+    .container {
+        width: 350px;
+    }
+
+}
